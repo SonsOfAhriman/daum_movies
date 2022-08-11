@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.App {
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header {
+  padding: 36px 0 20px 0;
+  align-items: left;
+  margin-left: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 4px;
+}
+
+.grid-item {
+  color: black;
+}
+
+.card-info a,
+.card-info span {
+  text-decoration: none !important;
+  color: black;
+}
+
+.card {
+  padding: 16px 10px;
+  display: block;
+  width: 204px;
+}
+
+.poster {
+  position: relative;
+  display: inline-block;
+}
+
+.poster img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.card-info {
+  padding: 17px 8px 0;
+}
